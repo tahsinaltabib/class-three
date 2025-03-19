@@ -1,0 +1,447 @@
+.bg-color{
+  background-color: #f7f2d6;
+  margin: 20px;
+}
+.country{
+  display: block;
+  background-color: #7fffd4;
+  padding: 5px 330px;
+  transition: .4s;
+  border-radius: 5px;
+}
+.country:hover{
+  background-color: #97307d;
+  color: #f0f8ff;
+}
+button{
+  border: 0;
+  background-color: #6e3097;
+  color: #ffffff;
+  padding: 0px 5px;
+  transition: .4s;
+  border-radius: 15px 10px;
+}
+button:hover{
+  background-color: green;
+  border-radius: 10px 15px;
+}
+/* <flag-Bangladesh */
+.bd{
+  position: relative;
+  width: 450px;
+  height: 250px;
+  background-color: green;
+  border-radius: 10px;
+}
+.bd-red{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100px;
+}
+button{
+  border: 0;
+  background-color: #6e3097;
+  color: #ffffff;
+  padding: 0px 15px;
+  transition: .4s;
+  border-radius: 15px 10px;
+}
+button:hover{
+  background-color: green;
+  border-radius: 10px 15px;
+}
+/* <flag-Afghanistan */
+.afg-flag{
+  width: 450px;
+  height: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.afg_b{
+  position: absolute;
+  padding-left: 0px;
+  width: 150px;
+  height: 250px;
+  background-color: #0a0000;
+  left: 0%;
+  top: 0%;
+  border-radius: 10px 0px 0px 10px;
+}
+.afg_r{
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: #c70213;
+  left: 33.4%;
+}
+.afg_g{
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: #157c05;
+  left: 66.7%;
+  top: 0%;
+  border-radius: 0px 10px 10px 0px;
+}
+.afg_icon{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.gf{
+  border: 0;
+  background-color: #6e3097;
+  color: #ffffff;
+  padding: 0px 20px;
+  transition: .4s;
+  border-radius: 15px 10px;
+}
+.gf:hover{
+  background-color: green;
+  border-radius: 10px 15px;
+}
+/* <flag-Germany */
+.ger-flag{
+  width: 450px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+.ger-b{
+  position: absolute;
+  padding-left: 0px;
+  width: 450px;
+  height: 83.33px;
+  background-color: #0a0000;
+  left: 0%;
+  top: 0%;
+  border-radius: 10px 10px 0px 0px;
+}
+.ger-r{
+  position: absolute;
+  width: 450px;
+  height: 83.33px;
+  background-color: red;
+  left: 0;
+  top: 83.33px;
+  border-radius: 0px 0px 0px 0px;
+}
+.ger-y{
+  position: absolute;
+  width: 450px;
+  height: 83.33px;
+  background-color: yellow;
+  left: 0;
+  top: 166.66px;
+  border-radius: 0px 0px 10px 10px;
+}
+.alg{
+  border: 0;
+  background-color: #6e3097;
+  color: #ffffff;
+  padding: 0px 20px;
+  transition: .4s;
+  border-radius: 15px 10px;
+}
+.gf:hover{
+  background-color: green;
+  border-radius: 10px 15px;
+}
+/* <flag-Algeria */
+.af{
+  width: 450px;
+  height: 250px;
+  background-color: #969e4d;
+  border-radius: 10px;
+  position: relative;
+}
+.alg-g{
+  position: absolute;
+  width: 225px;
+  height: 250px;
+  background-color: green;
+  left: 0;
+  top: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+.alg-w{
+  position: absolute;
+  width: 225px;
+  height: 250px;
+  background-color: #ffffff;
+  left: 100%;
+  top: 0;
+  transform: translateX(-100%);
+  border-radius: 0px 10px 10px 0px;
+}
+.alg-png{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.ff{
+  border: 0;
+  background-color: #6e3097;
+  color: #ffffff;
+  padding: 0px 20px;
+  transition: .4s;
+  border-radius: 15px 10px;
+}
+.ff:hover{
+  background-color: green;
+  border-radius: 10px 15px;
+}
+/* <flag-Finland */
+.flag-fl{
+  width: 450px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+.fl-s{
+  position: absolute;
+  width: 70px;
+  height: 250px;
+  background-color: #0066b3;
+  left: 25%;
+  top: 0;
+  transform: translateX();
+}
+.fl-s2{
+  position: absolute;
+  width: 450px;
+  height: 70px;
+  background-color: #0066b3;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.f-fr{
+  border: 0;
+  background-color: #6e3097;
+  color: #ffffff;
+  padding: 0px 25px;
+  transition: .4s;
+  border-radius: 15px 10px;
+}
+.f-fr:hover{
+  background-color: green;
+  border-radius: 10px 15px;
+}
+/* <flag-France */
+.flag-fr{
+  width: 450px;
+  height: 250px;
+  background-color: wheat;
+  border-radius: 10px;
+  position: relative;
+}
+.fr-b{
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: #0066b3;
+  left: 0;
+  top: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+.fr-w{
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: #fff;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+.fr-r{
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: red;
+  left: 100%;
+  top: 0%;
+  transform: translateX(-100%);
+  border-radius: 0px 10px 10px 0px;
+}
+/* <flag-Madagascar */
+.f-mg{
+  width: 450px;
+  height: 250px;
+  background-color: wheat;
+  border-radius: 10px;
+  position: relative;
+}
+.mg-w{
+  position: absolute;
+  width: 150px;
+  height: 250px;
+  background-color: white;
+  left: 0;
+  top: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+.mg-r{
+  position: absolute;
+  width: 300px;
+  height: 125px;
+  background-color: red;
+  left: 100%;
+  top: 0;
+  transform: translateX(-100%);
+  border-radius: 0px 10px 0px 0px;
+}
+.mg-g{
+  position: absolute;
+  width: 300px;
+  height: 125px;
+  background-color: green;
+  left: 100%;
+  top: 50%;
+  transform: translateX(-100%);
+  border-radius: 0px 0px 10px 0px;
+}
+/* <flag-Morocco */
+.f-mc{
+  width: 450px;
+  height: 250px;
+  background-color: #d10404;
+  border-radius: 10px;
+  position: relative;
+}
+.mc-logo{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.n-b{
+  border: 0;
+  background-color: #6e3097;
+  color: #ffffff;
+  padding: 0px 25px;
+  transition: .4s;
+  border-radius: 15px 10px;
+}
+.n-b:hover{
+  background-color: green;
+  border-radius: 10px 15px;
+}
+/* <flag-Norway */
+.nw-r{
+  position: relative;
+  width: 450px;
+  height: 250px;
+  background-color: red;
+  border-radius: 10px;
+}
+.nw-w1{
+  position: absolute;
+  width: 50px;
+  height: 250px;
+  background-color: white;
+  left: 30%;
+  top: 0;
+}
+.nw-w2{
+  position: absolute;
+  width: 450px;
+  height: 50px;
+  background-color: white;
+  left: 00;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nw-b1{
+  position: absolute;
+  width: 30px;
+  height: 250px;
+  background-color: #0066b3;
+  left: 32%;
+  top: 0;
+}
+.nw-b2{
+  position: absolute;
+  width: 450px;
+  height: 30px;
+  background-color: #0066b3;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bu-uae{
+  border: 0;
+  background-color: #6e3097;
+  color: #ffffff;
+  padding: 0px 30px;
+  transition: .4s;
+  border-radius: 15px 10px;
+}
+.bu-uae:hover{
+  background-color: green;
+  border-radius: 10px 15px;
+}
+/* <flag-UAE */
+.b-uae{
+  width: 450px;
+  height: 250px;
+  background-color: wheat;
+  border-radius: 10px;
+  position: relative;
+}
+.uae-r{
+  position: absolute;
+  width: 90px;
+  height: 250px;
+  background-color: #e40505;
+  left: 0;
+  top: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+.uae-g{
+  position: absolute;
+  width: 360px;
+  height: 83.33px;
+  background-color: green;
+  left: 100%;
+  top: 0;
+  transform: translateX(-100%);
+  border-radius: 0px 10px 0px 0px;
+}
+.uae-w{
+  position: absolute;
+  width: 360px;
+  height: 83.33px;
+  background-color: #ffffff;
+  left: 100%;
+  top: 50%;
+  transform: translate(-100%, -50%);
+  border-radius: 0px 0px 0px 0px;
+}
+.uae-b{
+  position: absolute;
+  width: 360px;
+  height: 83.33px;
+  background-color: #000000;
+  left: 100%;
+  top: 100%;
+  transform: translate(-100%,-100%);
+  border-radius: 0px 0px 10px 0px;
+}
+
